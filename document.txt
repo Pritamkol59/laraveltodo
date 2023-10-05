@@ -1,0 +1,14 @@
+
+Installing Laravel+React
+
+1)composer create-project --prefer-dist laravel/laravel todo-app
+
+2)composer require laravel/breeze --dev
+
+3)php artisan breeze:install react
+
+4)npm install
+
+
+
+php artisan migrate --path database/migrations/2023_09_28_061054_create_todos_table.php
